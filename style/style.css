@@ -65,4 +65,16 @@ body{
     justify-content: space-around;
     text-align: left;
   }
+  .product-size{
+    margin-top: 50px;
+  }
+  .porduct-size-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .porduct-size-img img{
+    height: 80px;
+    width: 80px;
+  }
   /* product section end */
