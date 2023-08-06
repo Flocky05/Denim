@@ -50,4 +50,19 @@ body{
     padding-left:70px;
     padding-right:70px;
   }
+  .product-details{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .product-details-left img{
+    width: 45%;
+    height: 90%;
+  }
+  .product-detailss-more{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+  }
   /* product section end */
