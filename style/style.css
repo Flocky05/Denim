@@ -13,18 +13,12 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
     min-height: 100vh;
     padding: 50px;
     /* Set the background image and other properties */
     background-image: url("../images/Header/HeaderBg.png");
     background-size: cover;
     background-position: center;
-  }
-  .header{
-    display: flex;
-    justify-content: space-between;
   }
   .header-left-title{
     display: flex;
@@ -34,4 +28,16 @@ body{
   .header-price{
     display: flex;
     margin-top: 20px;
+  }
+  .header-righ{
+    justify-items: center;
+  }
+  .header-right img{
+    padding-left: 150px;
+    padding-top: 50px;
+    height: 75%;
+    width: 75%;
+    background-image: url("../images/Header/Frame1.png");
+    background-size: cover;
+    background-position: center;
   }
