@@ -174,9 +174,20 @@ body{
     margin-top: 13px;
   }
   .lenden-container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("../images/lenden/434\ 1.png");
-    object-fit: cover;
+    object-fit: cover; 
+     background-repeat: no-repeat;
     display: block;
-    height:500px;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .lenden-containder-image img{
+    width: full;
+    
   }
   /* lenden section end */
