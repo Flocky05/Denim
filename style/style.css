@@ -173,4 +173,10 @@ body{
     text-align: center;
     margin-top: 13px;
   }
+  .lenden-container-image{
+    background-image: url("../images/lenden/434\ 1.png");
+    object-fit: cover;
+    display: block;
+    height:500px;
+  }
   /* lenden section end */
