@@ -141,3 +141,16 @@ body{
       padding-right: 40px;
     }
   /* denim card section end */
+
+  /* play card section start  */
+  .play-card{
+    position: relative;
+    background-image: url("../images/play/bunch-twisted-jeans-close-up-fashionable-clothes\ \(1\)\ 1.png");
+    object-fit: cover;
+    display: block;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* play card section end */
